@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className={classes.App}>
         <FrontPage ref={this.state.appRef} clicked={this.clickHandler}/>
-        <Projects ref={this.state.projectRef}/>
+        {/* <Projects ref={this.state.projectRef}/> */}
       </div>
     );
   }

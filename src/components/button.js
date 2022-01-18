@@ -4,12 +4,12 @@ import MaterialIcon from 'material-icons-react';
 
 const button = props => {
     return (
-        <div onClick={props.clicked} className={classes.Button} style={cBtn}>
-            <p>{props.children}</p>
+        <a href={props.href} target={props.target} rel={props.rel} onClick={!props.external?props.clicked:null} className={classes.Button} style={cBtn}>
+            {props.children}
             <div className={classes.RightArrow}>
                 <MaterialIcon icon={'arrow_forward'} color={'#FCFCFC'} size={22} />
             </div>
-        </div>
+        </a>
     )
 }
 

@@ -8,6 +8,7 @@
     border-radius: 8px;
     font-size: 1.1em;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -37,9 +38,6 @@
 
 
 .ProjectContainer {
-  width: 380px;
-  height: 250px;
-  margin: 5vh 5vw 5vh 5vw;
   box-shadow: 0 0 10px #cccccc;
   /* border-radius: 5px; */
   display: flex;
@@ -47,4 +45,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
